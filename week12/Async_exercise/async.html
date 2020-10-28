@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        h3 {
+            color: blue;
+            text-align: center;
+        }
+        video{
+            display: block;
+            margin: 1rem auto;
+        }
+        
         @keyframes pop {
             0%   {width:0px; height: 0px;}
             100% {width: 350px; height: 350px;}
@@ -16,7 +25,7 @@
             background: blue;
             color: white;
             display: block;
-            margin: 1rem auto;
+            margin: 2rem auto;
         }
         button:focus,
         button:hover {
@@ -27,12 +36,15 @@
 </head>
 <body>
 
+    <h3>First Exercise</h3>
     <video id="video" height="270" width="350" controls>
 
     </video>
     
-    
+    <hr>
 
+    <h3>Second Exercise</h3>
+    
     <button onclick="start()">View message</button>
     <div id="circle">
         <p id="text"></p>
